@@ -1,0 +1,180 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jersey+20&family=Pixelify+Sans:wght@400..700&family=Sixtyfour&family=Workbench&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+
+.header {
+    background-color: #0D0606;
+    height: 80px;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid gray;
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+.titulo {
+    color: #E53C3C;
+    font-family: "Pixelify Sans";
+}
+
+.menu {
+    display: flex;
+    gap: 15px;
+}
+
+.relleno {
+    background-color: #BF2929;
+    color: #3A0B0B;
+    padding: 8px 15px;
+    border-radius: 10px;
+    font-weight: bold;
+    font-family: "Pixelify Sans"
+}
+
+
+.contenido {
+    margin-top: 120px;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+
+.destacados {
+    background-color: #632F2F;
+    color: #C5C54D;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Sixtyfour";
+}
+
+
+.game {
+    margin-bottom: 60px;
+}
+
+.game h2 {
+    background-color: #C40F0F;
+    color: #FDE322;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    font-family: "Workbench";
+}
+
+.game-content {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.game-content p {
+    color: #ACB0F5;
+    line-height: 1.6;
+    font-family: "Jersey 20";
+    font-size: large;
+}
+
+.game-content img {
+    width: 500px;
+    border-radius: 10px;
+}
+.MEJORES{
+    background-color: #632F2F;
+    color: #C5C54D;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Sixtyfour";
+}
+.game-mejores{
+   margin-bottom: 60px;;
+
+}
+.game-mejores h2{
+    background-color: #C40F0F;
+    color: #FDE322;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+font-family: "Workbench"; }
+.game-content-mejores{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+.game-content-mejores p{
+    color: #ACB0F5;
+    line-height: 1.6;
+    font-family: "Jersey 20";
+    font-size: large;
+
+}
+.game-content-mejores img{
+    width: 500px;
+    border-radius: 10px;
+
+}
+.info{
+    background-color: #632F2F;
+    color: #C5C54D;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-family: "Sixtyfour";
+}
+.info-s{
+     margin-bottom: 60px;;
+
+}
+.info-s p{
+    background-color: #C40F0F;
+    color: #FDE322;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+font-family: "Jersey 20";
+font-size: large;
+}
+
+    
+
+
+.info-c img{
+    width: 1000px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+footer{
+    color:gray;
+    display: flex;
+    justify-content: center;
+}
+a {
+    text-decoration: none;
+    color: #3A0B0B;
+}
+
